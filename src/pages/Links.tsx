@@ -1,4 +1,3 @@
-import React from "react";
 import reactLogo from '../assets/react.svg'
 import viteLogo from '/vite.svg'
 import githubLogo from '../assets/github.png'
@@ -6,10 +5,9 @@ import leetcodeLogo from '../assets/leetcode.png'
 import linkedinLogo from '../assets/linkedin.png'
 import stackoverflowLogo from '../assets/stackoverflow.png'
 
-class Links extends React.Component {
-  render() {
-    return (
-      <div className="links">
+function LinksFunction() {
+  return (
+    <div className="links">
       <a href="https://vitejs.dev" target="_blank">
         <img src={viteLogo} className="logo" alt="Vite logo" />
       </a>
@@ -29,8 +27,7 @@ class Links extends React.Component {
         <img src={stackoverflowLogo} className="logo stackoverflow" alt="StackOverflow Logo" />
       </a>
     </div>
-    )
-  }
+  )
 }
 
-export default Links;
+export default LinksFunction;
