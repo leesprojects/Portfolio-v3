@@ -1,9 +1,10 @@
 import React from "react";
+import './Landing.scss'
 
 class Landing extends React.Component {
   render() {
     return (
-      <div className="Landing">
+      <div id="page__landing" className="page__landing">
         <h1>Lee Stevens v3</h1>
         <p className="read-the-docs">
           Full-Stack Web Developer<br></br>

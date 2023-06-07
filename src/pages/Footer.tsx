@@ -5,9 +5,9 @@ import leetcodeLogo from '../assets/leetcode.png'
 import linkedinLogo from '../assets/linkedin.png'
 import stackoverflowLogo from '../assets/stackoverflow.png'
 
-function LinksFunction() {
+function Footer() {
   return (
-    <div className="links">
+    <div id="page__footer" className="page__footer">
       <a href="https://vitejs.dev" target="_blank">
         <img src={viteLogo} className="logo" alt="Vite logo" />
       </a>
@@ -30,4 +30,4 @@ function LinksFunction() {
   )
 }
 
-export default LinksFunction;
+export default Footer;
