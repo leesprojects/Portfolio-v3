@@ -1,4 +1,4 @@
-import './Header.scss'
+import './Sidebar.scss'
 
 function Header() {
   const scrollTo = (id: string) => {
