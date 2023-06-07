@@ -19,15 +19,8 @@
 
 .button__toggle {
   position: relative;
-  height: 100px;
-  width: 25px;
+  height: 60px;
+  width: 15px;
   left: 300px;
   background-color: #42414157;
-
-  p {
-    transform: rotate(-90deg);
-    position: relative;
-    top: 50px;
-    left: -2px;
-  }
 }

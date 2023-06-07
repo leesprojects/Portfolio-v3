@@ -22,7 +22,7 @@ function Header() {
           <a onClick={() => scrollTo("section__footer")}>Footer</a>
         </li>
       </ul>
-      <div className="button__toggle"><p>Show</p></div>
+      <div className="button__toggle"><p></p></div>
     </div>
   )
 }

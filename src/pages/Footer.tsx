@@ -1,5 +1,3 @@
-import reactLogo from '../assets/react.svg'
-import viteLogo from '/vite.svg'
 import githubLogo from '../assets/github.png'
 import leetcodeLogo from '../assets/leetcode.png'
 import linkedinLogo from '../assets/linkedin.png'
@@ -8,12 +6,6 @@ import stackoverflowLogo from '../assets/stackoverflow.png'
 function Footer() {
   return (
     <div id="page__footer" className="page__footer">
-      <a href="https://vitejs.dev" target="_blank">
-        <img src={viteLogo} className="logo" alt="Vite logo" />
-      </a>
-      <a href="https://react.dev" target="_blank">
-        <img src={reactLogo} className="logo react" alt="React logo" />
-      </a>
       <a href="https://github.com/leesprojects" target="_blank">
         <img src={githubLogo} className="logo github" alt="Github Logo" />
       </a>
